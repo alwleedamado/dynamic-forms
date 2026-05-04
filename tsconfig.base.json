@@ -13,7 +13,11 @@
     "lib": ["es2020", "dom"],
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
-    "paths": {}
+    "paths": {
+      "@dynamic-forms/core": ["./packages/core/src/index.ts"],
+      "@dynamic-forms/angular": ["./packages/angular-adapter/src/index.ts"],
+      "@dynamic-forms/react": ["./packages/react-adapter/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
